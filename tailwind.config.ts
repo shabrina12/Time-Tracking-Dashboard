@@ -25,7 +25,7 @@ const config: Config = {
         'Violet': 'hsl(264, 64%, 52%)',
         'Soft-orange': 'hsl(43, 84%, 65%)',
         'Very-dark-blue': 'hsl(226, 43%, 10%)',
-        'Dark blue': 'hsl(235, 46%, 20%)',
+        'Dark-blue': 'hsl(235, 46%, 20%)',
         'Desaturated-blue': 'hsl(235, 45%, 61%)',
         'Pale-Blue': 'hsl(236, 100%, 87%)'
       },
