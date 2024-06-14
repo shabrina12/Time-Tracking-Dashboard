@@ -12,11 +12,11 @@ type CardProps = {
 
 const Card = ({title, hours, subtitle, bgColor, icon} : CardProps) => {
     return (
-        <div className={`${bgColor} relative container h-[280px] text-white xs:w-screen md:w-[320px] rounded-3xl`}>
+        <div className={`${bgColor} relative container h-[280px] text-white xs:w-[300px] sm:w-[570px] md:w-[320px] rounded-3xl`}>
             <div className='flex justify-end pr-4'>
                 <Image src={icon} alt='icon work' className="h-[70px]" />
             </div>
-            <div className='absolute top-12 bg-Dark-blue h-[240px] w-full px-10 pt-12 rounded-3xl'>
+            <div className='absolute top-12 bg-Dark-blue h-[240px] xs:w-[300px] sm:w-[570px] md:w-full px-10 pt-12 rounded-3xl'>
                 <div className='flex justify-between items-center mb-8'>
                     <h1 className='text-xl'>{title}</h1>
                     <Image src={ellipsis} alt='icon' className="w-[35px] h-[10px]" />
