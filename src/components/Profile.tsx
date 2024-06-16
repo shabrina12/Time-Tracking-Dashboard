@@ -11,7 +11,7 @@ const Profile = () => {
             </div>        
             <div className='h-full'>
                 <p className='text-Pale-Blue'>Report for</p>
-                <h1 className='text-4xl leading-normal'>Jeremy Robson</h1>
+                <h1 className='xs:text-xl sm:text-4xl md:text-5xl font-light md:leading-snug'>Jeremy Robson</h1>
             </div>
         </div>
         <div className='xs:h-fit lg:h-[200px] p-10'>

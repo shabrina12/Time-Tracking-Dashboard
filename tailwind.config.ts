@@ -14,7 +14,12 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: { 
-        "rubik": ['Rubik', 'sans-serif'] 
+        rubik: ['Rubik', 'sans-serif'],
+      },
+      fontWeight: {
+        'light': '300',
+        'normal': '400',
+        'medium': '500'
       },
       colors: {
         'Blue': 'hsl(246, 80%, 60%)',
