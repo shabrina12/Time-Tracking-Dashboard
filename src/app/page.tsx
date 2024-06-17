@@ -10,7 +10,7 @@ import Profile from "@/components/Profile";
 
 export default function Home() {
   return (
-    <main className="relative font-rubik bg-Very-dark-blue min-h-screen flex xs:flex-col lg:flex-row items-center justify-center gap-8 p-12">
+    <main className="relative font-rubik bg-Very-dark-blue min-h-screen flex xs:flex-col lg:flex-row items-center justify-center gap-8 xs:p-4 md:p-12">
       <div>
         <Profile />
       </div>
