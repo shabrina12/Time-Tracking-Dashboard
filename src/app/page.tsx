@@ -10,11 +10,11 @@ import Profile from "@/components/Profile";
 
 export default function Home() {
   return (
-    <main className="relative font-rubik bg-Very-dark-blue min-h-screen flex xs:flex-col lg:flex-row items-center justify-center gap-8 xs:p-4 md:p-12">
+    <main className="relative font-rubik bg-Very-dark-blue min-h-screen flex xs:flex-col lg:flex-row items-center justify-center xs:gap-4 md:gap-8 xs:p-4 md:p-12">
       <div>
         <Profile />
       </div>
-      <div className="grid xs:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xs:gap-8 md:gap-12">
+      <div className="grid xs:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xs:gap-4 sm:gap-6 md:gap-12">
           <Card icon={iconWork} bgColor="bg-Light-red" title="Work" hours="32hrs" subtitle="Last Week - 36hrs" />
           <Card icon={iconPlay} bgColor="bg-Soft-blue" title="Play" hours="10hrs" subtitle="Last Week - 10hrs" />
           <Card icon={iconStudy} bgColor="bg-Light-red2" title="Study" hours="4hrs" subtitle="Last Week - 4hrs" />

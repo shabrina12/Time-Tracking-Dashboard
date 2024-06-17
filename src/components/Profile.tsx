@@ -4,14 +4,14 @@ import profile from '../../public/images/image-jeremy.png'
 
 const Profile = () => {
   return (
-    <div className='rounded-3xl bg-Dark-blue h-full text-white xs:w-fit sm:w-[570px] md:w-[700px] lg:w-[300px]'>
-        <div className='bg-Blue xs:h-fit lg:h-[420px] px-10 xs:py-10 lg:py-0 lg:pt-12 rounded-3xl flex xs:flex-row xs:items-center lg:items-start lg:flex-col gap-8'>
+    <div className='rounded-3xl bg-Dark-blue h-full text-white xs:w-[90vw] md:w-[700px] lg:w-[300px]'>
+        <div className='bg-Blue xs:h-fit lg:h-[420px] px-10 xs:py-8 lg:py-0 lg:pt-12 rounded-3xl flex xs:flex-row xs:items-center lg:items-start lg:flex-col gap-8'>
             <div className='rounded-full bg-white p-1 w-fit h-fit'>
                 <Image src={profile} alt='profile' width={100} />
             </div>        
             <div className='h-full'>
                 <p className='text-Pale-Blue'>Report for</p>
-                <h1 className='xs:text-xl sm:text-4xl md:text-5xl font-light md:leading-snug'>Jeremy Robson</h1>
+                <h1 className='xs:text-2xl sm:text-4xl md:text-5xl font-light md:leading-snug'>Jeremy Robson</h1>
             </div>
         </div>
         <div className='xs:h-fit lg:h-[200px] p-10'>
